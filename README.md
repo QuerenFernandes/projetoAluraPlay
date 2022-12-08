@@ -1,17 +1,10 @@
-# Nome do meu projeto
+# Alura Play
 
-Rápida descrição do objetivo de fazer esse projeto
+Nesse projeto tive a oportunidade de praticar o Flexbox, construindo um projeto e aplicando várias formatações. 
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+Você pode acessar o projeto completo em: 
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![image](https://user-images.githubusercontent.com/95857175/206423091-828ad017-ff18-4eb2-99ec-a92536039fd9.png)
 
-## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+| :placard: Vitrine.Dev |     |nserir imagem com a #vitrinedev
