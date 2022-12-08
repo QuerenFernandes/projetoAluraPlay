@@ -13,17 +13,7 @@
     display: none;
 }
 
-/* RODAPÉ */
 
-.rodape__container {
-    display: flex;
-    /*
-    flex-direction: column;
-    flex-wrap: wrap;
-    */
-    /*resumindo as duas propriedades anteriores em uma linha de código*/
-    flex-flow: column wrap;
-}
 
 /* SEÇÃO SUPERIOR */
 
@@ -65,6 +55,41 @@
     gap: 7px;
 }
 
+/*VIDEOS*/
+
+.videos__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.videos__item {
+    height: 303px;
+    width: 280px;
+    flex-grow: 1;
+}
+
+.descricao-video {
+    margin-top: 1rem;
+    display: grid;
+    text-align: start;
+    column-gap: 1rem;
+    row-gap: 10px;
+}
+
+
+
+/* RODAPÉ */
+
+.rodape__container {
+    display: flex;
+    /*
+    flex-direction: column;
+    flex-wrap: wrap;
+    */
+    /*resumindo as duas propriedades anteriores em uma linha de código*/
+    flex-flow: column wrap;
+}
 
 @media (min-width: 834px) {
     /* CABEÇALHO */
@@ -100,3 +125,50 @@
     
 }
 
+@media (min-width: 1440px) {
+    .menu__container {
+        width: 239px;
+        overflow: scroll;
+    }
+
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4) {
+        display: flex;
+    }
+
+    .menu__lista {
+        height: auto;
+        padding: 24px 17px 20px 15px;
+        gap: 15px;
+    }
+
+    .menu__itens {
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+
+    /*invertendo a ordem dos itens da lista 3*/
+    .menu__lista:nth-child(3) {
+        flex-direction: column-reverse;
+
+    }
+    /*não é indicado porque alguns leitores de tela vão ignorar as propriedades e vão ler a página de acordo com o html*/
+    .jogos {
+        order: 3;
+    }
+
+    .filmes {
+        order: 2;
+    }
+
+    .premium {
+        order: 1;
+    }
+
+    .maispagina {
+        order: 4;
+    }
+
+}
